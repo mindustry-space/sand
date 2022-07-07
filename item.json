@@ -1,0 +1,948 @@
+[
+  {
+    "alwaysUnlocked": false,
+    "animationFrame": 13,
+    "barColor": null,
+    "boilPoint": 0.5,
+    "capPuddles": true,
+    "color": {
+      "a": 1,
+      "b": 0.7215686440467834,
+      "g": 0.4156862795352936,
+      "r": 0.3490196168422699
+    },
+    "contentType": "liquid",
+    "coolant": true,
+    "description": "Used for cooling machines and waste processing.",
+    "details": null,
+    "effect": 5,
+    "explosiveness": 0,
+    "flammability": 0,
+    "fullIcon": "liquid-water",
+    "gas": false,
+    "gasColor": {
+      "a": 1,
+      "b": 0.8999999761581421,
+      "g": 0.8999999761581421,
+      "r": 0.8999999761581421
+    },
+    "generateIcons": true,
+    "heatCapacity": 0.4000000059604645,
+    "hidden": false,
+    "hideDetails": true,
+    "iconId": 267,
+    "id": 0,
+    "inlineDescription": true,
+    "lightColor": {
+      "a": 0,
+      "b": 0,
+      "g": 0,
+      "r": 0
+    },
+    "localizedName": "Water",
+    "minfo": {
+      "baseError": null,
+      "error": null,
+      "mod": null,
+      "sourceFile": null
+    },
+    "name": "water",
+    "particleEffect": {
+      "baseRotation": 0,
+      "clip": 0,
+      "followParent": true,
+      "id": 0,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 0,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "particleSpacing": 60,
+    "stats": {
+      "intialized": false,
+      "timePeriod": -1,
+      "useCategories": false
+    },
+    "temperature": 0.5,
+    "uiIcon": "liquid-water-ui",
+    "vaporEffect": {
+      "baseRotation": 0,
+      "clip": 50,
+      "followParent": true,
+      "id": 107,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 110,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "viscosity": 0.5
+  },
+  {
+    "alwaysUnlocked": false,
+    "animationFrame": 18,
+    "barColor": null,
+    "boilPoint": 2,
+    "capPuddles": true,
+    "color": {
+      "a": 1,
+      "b": 0.4000000059604645,
+      "g": 0.6313725709915161,
+      "r": 1
+    },
+    "contentType": "liquid",
+    "coolant": true,
+    "description": "Refined in separators into constituent metals. Consumed in liquid turrets as ammunition.",
+    "details": null,
+    "effect": 7,
+    "explosiveness": 0,
+    "flammability": 0,
+    "fullIcon": "liquid-slag",
+    "gas": false,
+    "gasColor": {
+      "a": 1,
+      "b": 0.7490196228027344,
+      "g": 0.7490196228027344,
+      "r": 0.7490196228027344
+    },
+    "generateIcons": true,
+    "heatCapacity": 0.5,
+    "hidden": false,
+    "hideDetails": true,
+    "iconId": 268,
+    "id": 1,
+    "inlineDescription": true,
+    "lightColor": {
+      "a": 0.4000000059604645,
+      "b": 0.11372549086809158,
+      "g": 0.3176470696926117,
+      "r": 0.9411764740943909
+    },
+    "localizedName": "Slag",
+    "minfo": {
+      "baseError": null,
+      "error": null,
+      "mod": null,
+      "sourceFile": null
+    },
+    "name": "slag",
+    "particleEffect": {
+      "baseRotation": 0,
+      "clip": 0,
+      "followParent": true,
+      "id": 0,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 0,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "particleSpacing": 60,
+    "stats": {
+      "intialized": false,
+      "timePeriod": -1,
+      "useCategories": false
+    },
+    "temperature": 1,
+    "uiIcon": "liquid-slag-ui",
+    "vaporEffect": {
+      "baseRotation": 0,
+      "clip": 50,
+      "followParent": true,
+      "id": 107,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 110,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "viscosity": 0.699999988079071
+  },
+  {
+    "alwaysUnlocked": false,
+    "animationFrame": 23,
+    "barColor": {
+      "a": 1,
+      "b": 0.37254902720451355,
+      "g": 0.40392157435417175,
+      "r": 0.41960784792900085
+    },
+    "boilPoint": 0.6499999761581421,
+    "capPuddles": true,
+    "color": {
+      "a": 1,
+      "b": 0.1921568661928177,
+      "g": 0.1921568661928177,
+      "r": 0.1921568661928177
+    },
+    "contentType": "liquid",
+    "coolant": true,
+    "description": "Used in advanced material production and as incendiary ammunition.",
+    "details": null,
+    "effect": 11,
+    "explosiveness": 1.2000000476837158,
+    "flammability": 1.2000000476837158,
+    "fullIcon": "liquid-oil",
+    "gas": false,
+    "gasColor": {
+      "a": 1,
+      "b": 0.4000000059604645,
+      "g": 0.4000000059604645,
+      "r": 0.4000000059604645
+    },
+    "generateIcons": true,
+    "heatCapacity": 0.699999988079071,
+    "hidden": false,
+    "hideDetails": true,
+    "iconId": 269,
+    "id": 2,
+    "inlineDescription": true,
+    "lightColor": {
+      "a": 0,
+      "b": 0,
+      "g": 0,
+      "r": 0
+    },
+    "localizedName": "Oil",
+    "minfo": {
+      "baseError": null,
+      "error": null,
+      "mod": null,
+      "sourceFile": null
+    },
+    "name": "oil",
+    "particleEffect": {
+      "baseRotation": 0,
+      "clip": 0,
+      "followParent": true,
+      "id": 0,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 0,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "particleSpacing": 60,
+    "stats": {
+      "intialized": false,
+      "timePeriod": -1,
+      "useCategories": false
+    },
+    "temperature": 0.5,
+    "uiIcon": "liquid-oil-ui",
+    "vaporEffect": {
+      "baseRotation": 0,
+      "clip": 50,
+      "followParent": true,
+      "id": 107,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 110,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "viscosity": 0.75
+  },
+  {
+    "alwaysUnlocked": false,
+    "animationFrame": 28,
+    "barColor": null,
+    "boilPoint": 0.550000011920929,
+    "capPuddles": true,
+    "color": {
+      "a": 1,
+      "b": 0.9254902005195618,
+      "g": 0.8039215803146362,
+      "r": 0.4313725531101227
+    },
+    "contentType": "liquid",
+    "coolant": true,
+    "description": "Used as coolant in reactors, turrets and factories.",
+    "details": null,
+    "effect": 2,
+    "explosiveness": 0,
+    "flammability": 0,
+    "fullIcon": "liquid-cryofluid",
+    "gas": false,
+    "gasColor": {
+      "a": 1,
+      "b": 0.9607843160629272,
+      "g": 0.9098039269447327,
+      "r": 0.7568627595901489
+    },
+    "generateIcons": true,
+    "heatCapacity": 0.8999999761581421,
+    "hidden": false,
+    "hideDetails": true,
+    "iconId": 270,
+    "id": 3,
+    "inlineDescription": true,
+    "lightColor": {
+      "a": 0.20000000298023224,
+      "b": 0.9607843160629272,
+      "g": 0.5921568870544434,
+      "r": 0
+    },
+    "localizedName": "Cryofluid",
+    "minfo": {
+      "baseError": null,
+      "error": null,
+      "mod": null,
+      "sourceFile": null
+    },
+    "name": "cryofluid",
+    "particleEffect": {
+      "baseRotation": 0,
+      "clip": 0,
+      "followParent": true,
+      "id": 0,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 0,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "particleSpacing": 60,
+    "stats": {
+      "intialized": false,
+      "timePeriod": -1,
+      "useCategories": false
+    },
+    "temperature": 0.25,
+    "uiIcon": "liquid-cryofluid-ui",
+    "vaporEffect": {
+      "baseRotation": 0,
+      "clip": 50,
+      "followParent": true,
+      "id": 107,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 110,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "viscosity": 0.5
+  },
+  {
+    "alwaysUnlocked": false,
+    "animationFrame": 33,
+    "barColor": null,
+    "boilPoint": 2,
+    "capPuddles": false,
+    "cells": 8,
+    "color": {
+      "a": 1,
+      "b": 0.16862745583057404,
+      "g": 0.24313725531101227,
+      "r": 0.7647058963775635
+    },
+    "colorFrom": {
+      "a": 1,
+      "b": 0.24705882370471954,
+      "g": 0.501960813999176,
+      "r": 0.9098039269447327
+    },
+    "colorTo": {
+      "a": 1,
+      "b": 0.14509804546833038,
+      "g": 0.07058823853731155,
+      "r": 0.5490196347236633
+    },
+    "contentType": "liquid",
+    "coolant": true,
+    "description": null,
+    "details": null,
+    "effect": 0,
+    "explosiveness": 0,
+    "flammability": 0,
+    "fullIcon": "liquid-neoplasm",
+    "gas": false,
+    "gasColor": {
+      "a": 1,
+      "b": 0.7490196228027344,
+      "g": 0.7490196228027344,
+      "r": 0.7490196228027344
+    },
+    "generateIcons": true,
+    "heatCapacity": 0.4000000059604645,
+    "hidden": true,
+    "hideDetails": true,
+    "iconId": 271,
+    "id": 4,
+    "inlineDescription": true,
+    "lightColor": {
+      "a": 0,
+      "b": 0,
+      "g": 0,
+      "r": 0
+    },
+    "localizedName": "Neoplasm",
+    "maxSpread": 0.5,
+    "minfo": {
+      "baseError": null,
+      "error": null,
+      "mod": null,
+      "sourceFile": null
+    },
+    "name": "neoplasm",
+    "particleEffect": {
+      "baseRotation": 0,
+      "clip": 0,
+      "followParent": true,
+      "id": 0,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 0,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "particleSpacing": 60,
+    "spreadConversion": 0.5,
+    "spreadDamage": 0.10000000149011612,
+    "spreadTarget": 0,
+    "stats": {
+      "intialized": false,
+      "timePeriod": -1,
+      "useCategories": false
+    },
+    "techNode": null,
+    "temperature": 0.5400000214576721,
+    "uiIcon": "liquid-neoplasm-ui",
+    "vaporEffect": {
+      "baseRotation": 0,
+      "clip": 50,
+      "followParent": true,
+      "id": 107,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 110,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "viscosity": 0.8500000238418579
+  },
+  {
+    "alwaysUnlocked": false,
+    "animationFrame": 38,
+    "barColor": null,
+    "boilPoint": 2,
+    "capPuddles": true,
+    "color": {
+      "a": 1,
+      "b": 0.29411765933036804,
+      "g": 0.6627451181411743,
+      "r": 0.5176470875740051
+    },
+    "contentType": "liquid",
+    "coolant": true,
+    "description": null,
+    "details": null,
+    "effect": 0,
+    "explosiveness": 0,
+    "flammability": 0.4000000059604645,
+    "fullIcon": "liquid-arkycite",
+    "gas": false,
+    "gasColor": {
+      "a": 1,
+      "b": 0.7490196228027344,
+      "g": 0.7490196228027344,
+      "r": 0.7490196228027344
+    },
+    "generateIcons": true,
+    "heatCapacity": 0.5,
+    "hidden": false,
+    "hideDetails": true,
+    "iconId": 272,
+    "id": 5,
+    "inlineDescription": true,
+    "lightColor": {
+      "a": 0,
+      "b": 0,
+      "g": 0,
+      "r": 0
+    },
+    "localizedName": "Arkycite",
+    "minfo": {
+      "baseError": null,
+      "error": null,
+      "mod": null,
+      "sourceFile": null
+    },
+    "name": "arkycite",
+    "particleEffect": {
+      "baseRotation": 0,
+      "clip": 0,
+      "followParent": true,
+      "id": 0,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 0,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "particleSpacing": 60,
+    "stats": {
+      "intialized": false,
+      "timePeriod": -1,
+      "useCategories": false
+    },
+    "temperature": 0.5,
+    "uiIcon": "liquid-arkycite-ui",
+    "vaporEffect": {
+      "baseRotation": 0,
+      "clip": 50,
+      "followParent": true,
+      "id": 107,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 110,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "viscosity": 0.699999988079071
+  },
+  {
+    "alwaysUnlocked": false,
+    "animationFrame": 43,
+    "barColor": null,
+    "boilPoint": 2,
+    "capPuddles": true,
+    "color": {
+      "a": 1,
+      "b": 0.7490196228027344,
+      "g": 0.615686297416687,
+      "r": 0.6039215922355652
+    },
+    "contentType": "liquid",
+    "coolant": false,
+    "description": null,
+    "details": null,
+    "effect": 0,
+    "explosiveness": 0,
+    "flammability": 0,
+    "fullIcon": "liquid-gallium",
+    "gas": false,
+    "gasColor": {
+      "a": 1,
+      "b": 0.7490196228027344,
+      "g": 0.7490196228027344,
+      "r": 0.7490196228027344
+    },
+    "generateIcons": true,
+    "heatCapacity": 0.5,
+    "hidden": true,
+    "hideDetails": true,
+    "iconId": 273,
+    "id": 6,
+    "inlineDescription": true,
+    "lightColor": {
+      "a": 0,
+      "b": 0,
+      "g": 0,
+      "r": 0
+    },
+    "localizedName": "Gallium",
+    "minfo": {
+      "baseError": null,
+      "error": null,
+      "mod": null,
+      "sourceFile": null
+    },
+    "name": "gallium",
+    "particleEffect": {
+      "baseRotation": 0,
+      "clip": 0,
+      "followParent": true,
+      "id": 0,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 0,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "particleSpacing": 60,
+    "stats": {
+      "intialized": false,
+      "timePeriod": -1,
+      "useCategories": false
+    },
+    "techNode": null,
+    "temperature": 0.5,
+    "uiIcon": "liquid-gallium-ui",
+    "vaporEffect": {
+      "baseRotation": 0,
+      "clip": 50,
+      "followParent": true,
+      "id": 107,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 110,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "viscosity": 0.5
+  },
+  {
+    "alwaysUnlocked": false,
+    "animationFrame": 1,
+    "barColor": {
+      "a": 1,
+      "b": 0.9411764740943909,
+      "g": 0.6000000238418579,
+      "r": 0.8392156958580017
+    },
+    "boilPoint": -1,
+    "capPuddles": true,
+    "color": {
+      "a": 0.6000000238418579,
+      "b": 0.8666666746139526,
+      "g": 0.5058823823928833,
+      "r": 0.9882352948188782
+    },
+    "contentType": "liquid",
+    "coolant": false,
+    "description": null,
+    "details": null,
+    "effect": 0,
+    "explosiveness": 1,
+    "flammability": 1,
+    "fullIcon": "liquid-ozone",
+    "gas": true,
+    "gasColor": {
+      "a": 0.6000000238418579,
+      "b": 0.8666666746139526,
+      "g": 0.5058823823928833,
+      "r": 0.9882352948188782
+    },
+    "generateIcons": true,
+    "heatCapacity": 0.5,
+    "hidden": false,
+    "hideDetails": true,
+    "iconId": 274,
+    "id": 7,
+    "inlineDescription": true,
+    "lightColor": {
+      "a": 0,
+      "b": 0,
+      "g": 0,
+      "r": 0
+    },
+    "localizedName": "Ozone",
+    "minfo": {
+      "baseError": null,
+      "error": null,
+      "mod": null,
+      "sourceFile": null
+    },
+    "name": "ozone",
+    "particleEffect": {
+      "baseRotation": 0,
+      "clip": 0,
+      "followParent": true,
+      "id": 0,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 0,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "particleSpacing": 60,
+    "stats": {
+      "intialized": false,
+      "timePeriod": -1,
+      "useCategories": false
+    },
+    "temperature": 0.5,
+    "uiIcon": "liquid-ozone-ui",
+    "vaporEffect": {
+      "baseRotation": 0,
+      "clip": 50,
+      "followParent": true,
+      "id": 107,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 110,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "viscosity": 0.5
+  },
+  {
+    "alwaysUnlocked": false,
+    "animationFrame": 6,
+    "barColor": {
+      "a": 1,
+      "b": 0.9686274528503418,
+      "g": 0.6705882549285889,
+      "r": 0.6196078658103943
+    },
+    "boilPoint": -1,
+    "capPuddles": true,
+    "color": {
+      "a": 0.6000000238418579,
+      "b": 0.9686274528503418,
+      "g": 0.6705882549285889,
+      "r": 0.6196078658103943
+    },
+    "contentType": "liquid",
+    "coolant": false,
+    "description": null,
+    "details": null,
+    "effect": 0,
+    "explosiveness": 0,
+    "flammability": 1,
+    "fullIcon": "liquid-hydrogen",
+    "gas": true,
+    "gasColor": {
+      "a": 0.6000000238418579,
+      "b": 0.9686274528503418,
+      "g": 0.6705882549285889,
+      "r": 0.6196078658103943
+    },
+    "generateIcons": true,
+    "heatCapacity": 0.5,
+    "hidden": false,
+    "hideDetails": true,
+    "iconId": 275,
+    "id": 8,
+    "inlineDescription": true,
+    "lightColor": {
+      "a": 0,
+      "b": 0,
+      "g": 0,
+      "r": 0
+    },
+    "localizedName": "Hydrogen",
+    "minfo": {
+      "baseError": null,
+      "error": null,
+      "mod": null,
+      "sourceFile": null
+    },
+    "name": "hydrogen",
+    "particleEffect": {
+      "baseRotation": 0,
+      "clip": 0,
+      "followParent": true,
+      "id": 0,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 0,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "particleSpacing": 60,
+    "stats": {
+      "intialized": false,
+      "timePeriod": -1,
+      "useCategories": false
+    },
+    "temperature": 0.5,
+    "uiIcon": "liquid-hydrogen-ui",
+    "vaporEffect": {
+      "baseRotation": 0,
+      "clip": 50,
+      "followParent": true,
+      "id": 107,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 110,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "viscosity": 0.5
+  },
+  {
+    "alwaysUnlocked": false,
+    "animationFrame": 11,
+    "barColor": {
+      "a": 1,
+      "b": 1,
+      "g": 0.8901960849761963,
+      "r": 0.9372549057006836
+    },
+    "boilPoint": -1,
+    "capPuddles": true,
+    "color": {
+      "a": 0.6000000238418579,
+      "b": 1,
+      "g": 0.8901960849761963,
+      "r": 0.9372549057006836
+    },
+    "contentType": "liquid",
+    "coolant": false,
+    "description": null,
+    "details": null,
+    "effect": 0,
+    "explosiveness": 0,
+    "flammability": 0,
+    "fullIcon": "liquid-nitrogen",
+    "gas": true,
+    "gasColor": {
+      "a": 0.6000000238418579,
+      "b": 1,
+      "g": 0.8901960849761963,
+      "r": 0.9372549057006836
+    },
+    "generateIcons": true,
+    "heatCapacity": 0.5,
+    "hidden": false,
+    "hideDetails": true,
+    "iconId": 276,
+    "id": 9,
+    "inlineDescription": true,
+    "lightColor": {
+      "a": 0,
+      "b": 0,
+      "g": 0,
+      "r": 0
+    },
+    "localizedName": "Nitrogen",
+    "minfo": {
+      "baseError": null,
+      "error": null,
+      "mod": null,
+      "sourceFile": null
+    },
+    "name": "nitrogen",
+    "particleEffect": {
+      "baseRotation": 0,
+      "clip": 0,
+      "followParent": true,
+      "id": 0,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 0,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "particleSpacing": 60,
+    "stats": {
+      "intialized": false,
+      "timePeriod": -1,
+      "useCategories": false
+    },
+    "temperature": 0.5,
+    "uiIcon": "liquid-nitrogen-ui",
+    "vaporEffect": {
+      "baseRotation": 0,
+      "clip": 50,
+      "followParent": true,
+      "id": 107,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 110,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "viscosity": 0.5
+  },
+  {
+    "alwaysUnlocked": false,
+    "animationFrame": 16,
+    "barColor": {
+      "a": 1,
+      "b": 0.7137255072593689,
+      "g": 0.9098039269447327,
+      "r": 0.5372549295425415
+    },
+    "boilPoint": -1,
+    "capPuddles": true,
+    "color": {
+      "a": 0.6000000238418579,
+      "b": 0.7137255072593689,
+      "g": 0.9098039269447327,
+      "r": 0.5372549295425415
+    },
+    "contentType": "liquid",
+    "coolant": false,
+    "description": null,
+    "details": null,
+    "effect": 0,
+    "explosiveness": 0,
+    "flammability": 2,
+    "fullIcon": "liquid-cyanogen",
+    "gas": true,
+    "gasColor": {
+      "a": 0.6000000238418579,
+      "b": 0.7137255072593689,
+      "g": 0.9098039269447327,
+      "r": 0.5372549295425415
+    },
+    "generateIcons": true,
+    "heatCapacity": 0.5,
+    "hidden": false,
+    "hideDetails": true,
+    "iconId": 277,
+    "id": 10,
+    "inlineDescription": true,
+    "lightColor": {
+      "a": 0,
+      "b": 0,
+      "g": 0,
+      "r": 0
+    },
+    "localizedName": "Cyanogen",
+    "minfo": {
+      "baseError": null,
+      "error": null,
+      "mod": null,
+      "sourceFile": null
+    },
+    "name": "cyanogen",
+    "particleEffect": {
+      "baseRotation": 0,
+      "clip": 0,
+      "followParent": true,
+      "id": 0,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 0,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "particleSpacing": 60,
+    "stats": {
+      "intialized": false,
+      "timePeriod": -1,
+      "useCategories": false
+    },
+    "temperature": 0.5,
+    "uiIcon": "liquid-cyanogen-ui",
+    "vaporEffect": {
+      "baseRotation": 0,
+      "clip": 50,
+      "followParent": true,
+      "id": 107,
+      "layer": 110,
+      "layerDuration": 0,
+      "lifetime": 110,
+      "renderer": {},
+      "rotWithParent": false,
+      "startDelay": 0
+    },
+    "viscosity": 0.5
+  }
+]
